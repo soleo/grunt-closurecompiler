@@ -16,7 +16,7 @@
     "license": "Apache License, Version 2.0",
     "main": "Gruntfile.js",
     "dependencies": {
-        "closurecompiler": ">=1.2"
+        "closurecompiler": "soleo/ClosureCompiler.js#feature/own-repo"
     },
     "engines": {
         "node": ">=0.8.0"
@@ -25,15 +25,16 @@
         "test": "grunt test"
     },
     "devDependencies": {
-        "grunt-contrib-clean": "~0.4.0",
-        "grunt-contrib-nodeunit": "~0.1.2",
         "grunt": "~0.4.0",
-        "grunt-cli": ">=0.1.6"
+        "grunt-cli": ">=0.1.6",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-contrib-nodeunit": "~0.1.2"
     },
     "peerDependencies": {
         "grunt": "~0.4.0"
     },
     "keywords": [
-        "gruntplugin", "closure compiler"
+        "gruntplugin",
+        "closure compiler"
     ]
 }
